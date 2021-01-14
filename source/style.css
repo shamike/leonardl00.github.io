@@ -42,6 +42,47 @@ html, body {
   background-image: url(bg_3.jpg);
 }
 
+.bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  height: 130vh;
+  position: fixed;
+  width: 100%;
+  transform: translateY(30vh);
+  transition: all 1.2s cubic-bezier(0.22, 0.44, 0, 1);
+}
+.bg:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.bg1 {
+  background-image: url(bg_1.JPG);
+  transform: translateY(-15vh);
+  z-index: 3;
+}
+.bg2 {
+  background-image: url(bg_2.webp);
+  transform: translateY(-15vh);
+  z-index: 2;
+}
+.bg3 {
+  background-image: url(bg_3.jpg);
+  transform: translateY(-15vh);
+  z-index: 1;
+}
+
 /* Set stacking context of slides */
 .background:nth-child(1) {
   z-index: 3;
@@ -56,7 +97,6 @@ html, body {
 }
 
 .content-wrapper {
-  height: 100vh;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -70,6 +110,11 @@ html, body {
           backface-visibility: hidden;
   transition: all 1.7s cubic-bezier(0.22, 0.44, 0, 1);
 }
+
+.fix {
+  height: 100vh;
+}
+
 .content-title {
   font-size: 8vh;
   line-height: 1.4;
@@ -166,8 +211,8 @@ html, body {
   z-index: 1;
 }
 .ct-btn-scroll {
-  width: 7vh;
-  height: 7vh;
+  width: 49px;
+  height: 49px;
   position: absolute;
   bottom: 30px;
   left: 0;
@@ -179,8 +224,8 @@ html, body {
   transition: background-color 0.25s ease-in-out;
 }
 .ct-btn-scroll-up {
-  width: 7vh;
-  height: 7vh;
+  width: 49px;
+  height: 49px;
   position: absolute;
   top: 30px;
   left: 0;
@@ -190,6 +235,7 @@ html, body {
   border-radius: 50%;
   -webkit-transition: background-color 0.25s ease-in-out;
   transition: background-color 0.25s ease-in-out;
+  transform: rotateX(180deg);
   display: none;
 }
 .igfilter{
