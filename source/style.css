@@ -97,6 +97,7 @@ html, body {
 }
 
 .content-wrapper {
+  height: 40vh;
   display: flex;
   justify-content: center;
   text-align: center;
