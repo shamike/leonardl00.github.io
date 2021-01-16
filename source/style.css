@@ -39,7 +39,10 @@ html, body {
   background-image: url(bg_2.webp);
 }
 .background:nth-child(3) {
-  background-image: url(bg_3.jpg);
+  background-image: url(bg_3.webp);
+}
+.background:nth-child(4) {
+  background-image: url(bg_4.jpg);
 }
 
 .bg {
@@ -70,31 +73,42 @@ html, body {
 .bg1 {
   background-image: url(bg_1.JPG);
   transform: translateY(-15vh);
-  z-index: 3;
+  z-index: 4;
 }
 .bg2 {
   background-image: url(bg_2.webp);
   transform: translateY(-15vh);
-  z-index: 2;
+  z-index: 3;
 }
 .bg3 {
-  background-image: url(bg_3.jpg);
+  background-image: url(bg_3.webp);
+  transform: translateY(-15vh);
+  z-index: 2;
+}
+
+.bg4 {
+  background-image: url(bg_4.jpg);
   transform: translateY(-15vh);
   z-index: 1;
 }
 
 /* Set stacking context of slides */
 .background:nth-child(1) {
-  z-index: 3;
+  z-index: 4;
 }
 
 .background:nth-child(2) {
-  z-index: 2;
+  z-index: 3;
 }
 
 .background:nth-child(3) {
+  z-index: 2;
+}
+
+.background:nth-child(4) {
   z-index: 1;
 }
+
 
 .content-wrapper {
   height: 40vh;
