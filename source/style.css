@@ -309,3 +309,17 @@ html, body {
   background: #6441a5;
   color: white;
 }
+
+.btn {
+  background-color: #bd34b8;
+  color: white;
+  margin: 0px auto;
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  border:1px solid #dd3fd8;
+}
+
+.btn:hover{
+  background-color: #f741f1;
+}
