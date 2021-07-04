@@ -255,7 +255,6 @@ html, body {
 }
 .igfilter{
   width: 100%;
-  overflow: hidden;
 }
 .filter{
   width: 10vh;
@@ -314,7 +313,8 @@ html, body {
   background-color: #bd34b8;
   color: white;
   margin: 0px auto;
-  padding: 15px;
+  padding: .5rem 1rem;
+  font-size: 2rem;
   border-radius: 5px;
   font-weight: bold;
   border:1px solid #dd3fd8;
