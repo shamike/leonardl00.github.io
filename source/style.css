@@ -323,3 +323,7 @@ html, body {
 .btn:hover{
   background-color: #f741f1;
 }
+
+.hvr:hover{
+  opacity: 0.7;
+}
