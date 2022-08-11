@@ -1,157 +1,582 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-<meta charset="UTF-8">
-<link rel="apple-touch-icon" sizes="57x57" href="/ico/apple-icon-57x57.png">
-<link rel="apple-touch-icon" sizes="60x60" href="/ico/apple-icon-60x60.png">
-<link rel="apple-touch-icon" sizes="72x72" href="/ico/apple-icon-72x72.png">
-<link rel="apple-touch-icon" sizes="76x76" href="/ico/apple-icon-76x76.png">
-<link rel="apple-touch-icon" sizes="114x114" href="/ico/apple-icon-114x114.png">
-<link rel="apple-touch-icon" sizes="120x120" href="/ico/apple-icon-120x120.png">
-<link rel="apple-touch-icon" sizes="144x144" href="/ico/apple-icon-144x144.png">
-<link rel="apple-touch-icon" sizes="152x152" href="/ico/apple-icon-152x152.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="192x192"  href="/ico/android-icon-192x192.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/ico/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="96x96" href="/ico/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/ico/favicon-16x16.png">
-<link rel="manifest" href="/ico/manifest.json">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="msapplication-TileImage" content="/ico/ms-icon-144x144.png">
-<meta name="theme-color" content="#ffffff">
-<title>Leonard Louis</title>
-<meta name="author" content="Leonard Louis" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel="stylesheet" href="source/style.css">
-<link rel="stylesheet" href="dist/css/parallax.css">
-<link rel="stylesheet" href="dist/css/parallax-animation.css">
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<div class="wrapper">
-  <div class="container" id="container">
-    <section class="background" id="page1">
-      <div id="bg1">
-        <div class="content-wrapper"> <img src="source/img_2.jpg" alt="" class="img" id="home"/>
-          <p class="content-title">Leonard Louis</p>
-          <p class="content-subtitle">Age 21, Born on 8th June 2000, From Sabah.<br>
-            Intrested in Web Development, Computer Programming & Technology.<br>
-            Studying at Adtec Shah Alam for Diploma in Aircraft Maintenance.</p>
-        </div>
-      </div>
-    </section>
-    <section class="background" id="page2">
-      <div id="bg2">
-        <div class="content-wrapper">
-          <p class="content-title">My Work.</p>
-          <p class="content-subtitle">Website and Instagram Filter</p>
-          <br>
-          <a href="https://www.secret-santa.tk/" target="_blank"><img class="hvr" src="source/ss.png" style="width: 25vh;"/></a><br>
-          <div class="igfilter"> <a href="https://www.instagram.com/a/r/?effect_id=504162390151369&ch=MzJkMGI3NmJjN2U2NDAxYTI3NDg2OTIxNjFlZTJiMjQ=" target="_blank"><img class="filter hvr" src="source/sbh.png"/></a> <a href="https://www.instagram.com/a/r/?effect_id=504162390151369&ch=MzJkMGI3NmJjN2U2NDAxYTI3NDg2OTIxNjFlZTJiMjQ=" target="_blank"><img class="filter hvr" src="source/wtd.png"/></a> </div>
-          <p class="content-subtitle">Other Project</p>
-          <a class="btn" href="https://www.inner-co.ml/" target="_blank">Simple E-Commerce Site</a><br>
-        </div>
-      </div>
-    </section>
-    <section class="background" id="page3">
-      <div id="bg3">
-        <div class="content-wrapper">
-          <p class="content-title">Handy tool.</p>
-          <p class="content-subtitle">Software</p>
-		  <span>For Educational Purpose Only</span>
-          <br>
-          <a href="/adobe.html" target="_blank"><img class="hvr" src="source/ad.png" style="width: 25vh;"/></a><br>
-          <a href="/microsoft.html" target="_blank"><img class="hvr" src="source/office.png" style="width: 25vh;"/></a><br>
-        </div>
-      </div>
-    </section>
-    <section class="background" id="page4">
-      <div id="bg4">
-        <div class="content-wrapper">
-          <p class="content-title">Sosial Media</p>
-          <p class="content-subtitle">Follow me in social media.</p>
-          <div class="social"> <a href="https://www.instagram.com/leonardl00/" target="_blank" class="fa fa-instagram"></a> <a href="https://www.facebook.com/LeonardLouisK" target="_blank" class="fa fa-facebook"></a> <a href="mailto:leo@leonardlouis.ml" target="_blank" class="fa fa-envelope"></a> <a href="https://www.linkedin.com/in/leonard-louis/" target="_blank" class="fa fa-linkedin"></a> <a href="https://www.youtube.com/channel/UC5Mw15zyV2L4agG85RWEfIg" target="_blank" class="fa fa-youtube"></a> <a href="https://www.twitch.tv/leonardl00" target="_blank" class="fa fa-twitch"></a> </div>
-        </div>
-      </div>
-    </section>
-    <a class="ct-btn-scroll" href="#" onclick="downbutton()"><img alt="Arrow Down Icon" src="source/arrow-down-1.png"></a> <a class="ct-btn-scroll-up" href="#" onclick="upbutton()"><img alt="Arrow Down Icon" src="source/arrow-down-1.png"></a> </div>
-    
-    <!-- Messenger Chat plugin Code -->
-    <div id="fb-root"></div>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <!-- Primary Meta Tags -->
+        <title>Leonard Louis - Online Portfolio</title>
+        <meta name="title" content="Leonard Louis - Online Portfolio">
+        <meta name="description" content="Leonard Louis, Born Sabahan and majoring in Aircraft Maintenance and a freelancer in Web Development.
+        I'm self taught in Full-Stack Web Developing.
+        Had my first exposure into the Programming World since I was in High School.
+        Currently open to work on any Gig Work.">
+        <meta name="author" content="Leonard Louis" />
 
-    <!-- Your Chat plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://leonardlouis.ml/">
+        <meta property="og:title" content="Leonard Louis - Online Portfolio">
+        <meta property="og:description" content="Leonard Louis, Born Sabahan and majoring in Aircraft Maintenance and a freelancer in Web Development.
+        I'm self taught in Full-Stack Web Developing.
+        Had my first exposure into the Programming World since I was in High School.
+        Currently open to work on any Gig Work.">
+        <meta property="og:image" content="https://leonardlouis.ml/assets/img/leo.jpg">
 
-</div>
-<!-- partial --> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.min.js"></script> 
-<script src="source/jquery-3.5.1.min.js"></script> 
-<script src="https://kit.fontawesome.com/a14a6760a1.js" crossorigin="anonymous"></script> 
-<script>
-if (screen && screen.width > 900) {
-    document.write('<script src="source/script.js"><\/script>');
-        $('.content-wrapper').addClass('fix');
-}
-</script> 
-<script>
-if (screen && screen.width < 900) {
-document.write('<script src="dist/js/parallax.js"><\/script>');
-    $('#container').removeClass('container').addClass('pages');
-    $('#page1').addClass('page').removeClass('background');
-    $('#page2').addClass('page').removeClass('background');
-    $('#page3').addClass('page').removeClass('background');
-    $('#page4').addClass('page').removeClass('background');
-    $('#bg1').addClass('bg').addClass('bg1');
-    $('#bg2').addClass('bg').addClass('bg2');
-    $('#bg3').addClass('bg').addClass('bg3');
-    $('#bg4').addClass('bg').addClass('bg4');
-    $('.ct-btn-scroll').fadeOut();;
-}
-</script> 
-<script>
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://leonardlouis.ml/">
+        <meta property="twitter:title" content="Leonard Louis - Online Portfolio">
+        <meta property="twitter:description" content="Leonard Louis, Born Sabahan and majoring in Aircraft Maintenance and a freelancer in Web Development.
+        I'm self taught in Full-Stack Web Developing.
+        Had my first exposure into the Programming World since I was in High School.
+        Currently open to work on any Gig Work.">
+        <meta property="twitter:image" content="https://leonardlouis.ml/assets/img/leo.jpg">
+        
+        <link rel="apple-touch-icon" sizes="57x57" href="/ico/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/ico/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/ico/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/ico/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/ico/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/ico/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/ico/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/ico/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/ico/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/ico/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/ico/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/ico/favicon-16x16.png">
+        <link rel="manifest" href="/ico/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/ico/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">Leonard Louis</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">My Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li> -->
+                        <li class="nav-item"><a class="nav-link" href="#achievement">Achievement</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+                <div class="d-flex justify-content-center">
+                    <div class="text-center">
+                        <h1 class="mx-auto my-0 text-uppercase">Leonard Louis</h1>
+                        <h2 class="text-white mx-auto mt-2 mb-5">Major in Aircraft Maintenance but a Freelancer in Web Development.</h2>
+                        <h3 class="text-white-50 mx-auto mt-2 mb-5">"Knowledge and Skills are useless without consistent application"</h3>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container px-4 px-lg-5">
+                <img class="img-profile" src="assets/img/leo.jpg" alt="Photo of Leonard Louis" />
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white mb-4">About Me</h2>
+                        <p class="text-white-50">
+                            Born Sabahan and majoring in Aircraft Maintenance and a freelancer in Web Development. <br>
+                            I'm self taught in Full-Stack Web Developing. <br> Had my first exposure into the Programming World since I was in High School. <br>
+                            Currently open to work on any Gig Work.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Projects-->
+        <section class="projects-section bg-light" id="projects">
+            <div class="container px-4 px-lg-5">
+                <h1 class="text-black py-2 text-center">My Projects</h1>
+                <!-- Featured Project Row-->
 
-	$('.pages').parallax({
-		direction: 'vertical',
-		swipeAnim: 'cover',
-		drag:      true,
-		loading:   true,
-		indicator: true,
-		arrow:     true,
-		onchange: function(index, element, direction) {
-			// code here...
-			// console.log(index, element, direction);
-		},
-		/*
-		 * {String}		orientation: landscape、protrait
-		 */
-		orientationchange: function(orientation) {
-			// console.log(orientation);
-		}
-	});
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7 order-lg-1"><img class="mx-2 img-fluid mb-3 mb-lg-0" src="assets/img/kjk/kjk.png" alt="..." /><img class="mx-2 img-fluid mb-3 mb-lg-0" src="assets/img/kjk/kjk2.png" alt="..." /></div>
+                    <div class="col-xl-4 col-lg-5 order-lg-0">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Kita Jaga Kita<p class="text-muted">Quasar Vue JS</p></h4>
+                            <p class="text-black-50 mb-0">An informative platform for early warning system and user reporting based on geolocation.</p>
+                            <!-- <a class="btn btn-primary" href="#" target="_blank">Live Preview</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7 order-lg-0">
+                        <div id="kbdmmy" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner img-fluid">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/kbdmy/kbdmy.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/kbdmy/kbdmy-1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/kbdmy/kbdmy-2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/kbdmy/kbdmy-3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/kbdmy/kbdmy-4.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/kbdmy/kbdmy-5.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/kbdmy/kbdmy-6.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/kbdmy/kbdmy-7.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/kbdmy/kbdmy-8.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/kbdmy/kbdmy-9.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#kbdmmy" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#kbdmmy" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-5 order-lg-1">
+                        <div class="featured-text text-center text-lg-right">
+                            <h4>KBDMY<p class="text-muted">Laravel PHP</p></h4>
+                            <p class="text-black-50 mb-0">An E-commerce sample website selling computer peripherals with admin panel.</p>
+                            <a class="btn btn-primary" href="http://kbdmy.ml/" target="_blank">Live Preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7 order-lg-1">
+                        <div id="student-portal" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner img-fluid">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/student-portal/student-portal.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/student-portal/student-portal-1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/student-portal/student-portal-2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/student-portal/student-portal-3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/student-portal/student-portal-4.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/student-portal/student-portal-5.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/student-portal/student-portal-6.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/student-portal/student-portal-7.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/student-portal/student-portal-8.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/student-portal/student-portal-9.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/student-portal/student-portal-10.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/student-portal/student-portal-11.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/student-portal/student-portal-12.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#student-portal" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#student-portal" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-5 order-lg-0">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Student portal<p class="text-muted">Laravel PHP</p></h4>
+                            <p class="text-black-50 mb-0">A sample for student portal web application with 3 different user profile. Student, Lecturer and Admin.</p>
+                            <a class="btn btn-primary" href="https://lasallekk.site" target="_blank">Live Preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7 order-lg-0">
+                        <div id="tool-crib" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner img-fluid">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/tool-crib/tool-crib.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/tool-crib/tool-crib-1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/tool-crib/tool-crib-2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/tool-crib/tool-crib-3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/tool-crib/tool-crib-4.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/tool-crib/tool-crib-5.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/tool-crib/tool-crib-6.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/tool-crib/tool-crib-7.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#tool-crib" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#tool-crib" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-5 order-lg-1">
+                        <div class="featured-text text-center text-lg-right">
+                            <h4>ToolCrib Management System<p class="text-muted">Vanila PHP</p></h4>
+                            <p class="text-black-50 mb-0">A Management System to keep track of movement, calibration date and expiry of tools and consumable in ToolCrib Workshop.</p>
+                            <a class="btn btn-primary" href="https://tool-crib.ml/" target="_blank">Live Preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7 order-lg-1"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/m2c/m2c.jpg" alt="..." /></div>
+                    <div class="col-xl-4 col-lg-5 order-lg-0">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>M2C<p class="text-muted">Vanila PHP</p></h4>
+                            <p class="text-black-50 mb-0">Logistic application to keep track of logistic movement.</p>
+                            <a class="btn btn-primary" href="http://www.demo-m2c.ml/" target="_blank">Live Preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7 order-lg-0">
+                        <div id="your-design" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner img-fluid">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/your-design/your-design.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/your-design/your-design-1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/your-design/your-design-2.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/your-design/your-design-3.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/your-design/your-design-4.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#your-design" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#your-design" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-5 order-lg-1">
+                        <div class="featured-text text-center text-lg-right">
+                            <h4>Your Design<p class="text-muted">Vanila PHP</p></h4>
+                            <p class="text-black-50 mb-0">An E-commerce website making an order on Customisable Button Badge with api to keep track on shipping rate in realtime.</p>
+                            
+                            <a class="btn btn-primary" href="https://your-design.ml/" target="_blank">Live Preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7 order-lg-1">
+                        <div id="inner-co" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner img-fluid">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/inner-co/inner-co.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/inner-co/inner-co-1.jpg" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#inner-co" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#inner-co" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-5 order-lg-0">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4>Inner Co<p class="text-muted">Vanila PHP</p></h4>
+                            <p class="text-black-50 mb-0">A sample E-commerce site with demo on stripe payment gateway.</p>
+                            <a class="btn btn-primary" href="https://inner-co.ml/" target="_blank">Live Preview</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
+                    <div class="col-xl-8 col-lg-7 order-lg-0"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/secret-santa/secret-santa.jpg" alt="..." /></div>
+                    <div class="col-xl-4 col-lg-5 order-lg-1">
+                        <div class="featured-text text-center text-lg-right">
+                            <h4>Secret Santa<p class="text-muted">Vanila PHP</p></h4>
+                            <p class="text-black-50 mb-0">A simple Project on organising a secret santa event with sms notification to notify user on their giftee.</p>
+                            <a class="btn btn-primary" href="https://secret-santa.ml/" target="_blank">Live Preview</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <!-- Experience-->
+        <section class="offset-section text-center" id="experience">
+            <div class="container px-4 px-lg-5 pb-4">
+                <h2 class="mb-4">Working Experience</h2>
+                <div class="timeline-page position-relative">
+                    <div class="timeline-item">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6">
+                                <div class="duration date-label-left position-relative text-md-end">
+                                    <h5 class="my-2">Phi Software Sdn Bhd</h5>
+                                    <small class="text-muted mb-0">April 2022-July 2022</small>
+                                </div>
+                            </div><!--end col-->
+                            <div class="col-lg-6 col-md-6 col-sm-6 mt-4 mt-sm-0">
+                                <div class="event event-description-right float-left text-start">
+                                    <h6 class="title mb-1 text-capitalize">Full-Stack Web Developer</h6>
+                                    <p class="timeline-subtitle mt-3 mb-0 text-muted">Working with Quasar (VueJs) and Odoo (Python)</p>
+                                </div>
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    </div><!--end timeline item-->
 
+                    <div class="timeline-item mt-5 pt-4">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 order-sm-2 order-1">
+                                <div class="duration duration-right position-relative">
+                                    <h5 class="my-2">Malindo Airways Sdn Bhd</h5>
+                                    <small class="text-muted mb-0">September 2020-November 2020</small>
+                                </div>
+                            </div><!--end col-->
+                            <div class="col-lg-6 col-md-6 col-sm-6 order-sm-1 order-2 mt-4 mt-sm-0">
+                                <div class="event event-description-left float-left text-end">
+                                    <h6 class="title mb-1 text-capitalize">Internship</h6>
+                                    <p class="timeline-subtitle mt-3 mb-0 text-muted">Assisted in maintenance work for <br> ATR72-600</p>
+                                </div>
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    </div><!--end timeline item-->
+                    <div class="timeline-item mt-5 pt-4">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 mt-4 mt-sm-0">
+                                <div class="duration date-label-left position-relative text-md-end">
+                                    <h5 class="my-2">Systematic Aviation Services Sdn Bhd</h5>
+                                    <small class="text-muted mb-0">September 2019-November 2019</small>
+                                </div>
+                            </div><!--end col-->
+                            <div class="col-lg-6 col-md-6 col-sm-6 mt-4 mt-sm-0">
+                                <div class="event event-description-right float-left text-start">
+                                    <h6 class="title mb-1 text-capitalize">Internship</h6>
+                                    <p class="timeline-subtitle mt-3 mb-0 text-muted">Assisted in aircraft maintenance work for fixed-wing aircraft and helicopter</p>
+                                </div>
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    </div><!--end timeline item-->
 
-</script>
-<script>
-  var chatbox = document.getElementById('fb-customer-chat');
-  chatbox.setAttribute("page_id", "260729294331070");
-  chatbox.setAttribute("attribution", "biz_inbox");
-
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml            : true,
-      version          : 'v11.0'
-    });
-  };
-
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
-
-</body>
+                    <div class="timeline-item mt-5 pt-4">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 order-sm-2 order-1">
+                                <div class="duration duration-right position-relative">
+                                    <h5 class="my-2">Freelance</h5>
+                                    <small class="text-muted mb-0">2016-Present</small>
+                                </div>
+                            </div><!--end col-->
+                            <div class="col-lg-6 col-md-6 col-sm-6 order-sm-1 order-2 mt-4 mt-sm-0">
+                                <div class="event event-description-left float-left text-end">
+                                    <h6 class="title mb-1 text-capitalize">Mobile Phone & Computer Repair</h6>
+                                    <p class="timeline-subtitle mt-3 mb-0 text-muted">Freelance Mobile Phone and Computer Repair.</p>
+                                </div>
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    </div><!--end timeline item-->
+                </div>
+            </div>
+        </section>
+        <!-- Projects-->
+        <section class="projects-section bg-light" id="education">
+            <div class="container px-4 px-lg-5">
+                <h1 class="text-black py-2 text-center">Education</h1>
+                <div class="row row-cols-1 row-cols-md-2 g-2">
+                    <div class="col">
+                        <div class="card mb-3 h-100">
+                            <img class="card-img-top" src="assets/img/adtec.jpg" alt="Photo of Adtec Shah Alam">
+                            <div class="card-body">
+                                <h5 class="card-title">Pusat Latihan Teknologi Tinggi (ADTEC) Shah Alam</h5>
+                                <p class="card-text">Diploma in Aircraft Maintenance</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">June 2018 - Present</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3 h-100">
+                            <img class="card-img-top" src="assets/img/lasalle.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">La Salle Secondary School Kota Kinabalu</h5>
+                                <p class="card-text">SPM</p>
+                                <p class="card-text text-primary">1A 1A- 1B+ 2B 2C+</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">2013 - 2017</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- Skills
+        <section class="about-section text-center" id="skills">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 pb-4 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white mb-4">Skills</h2>
+                        
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- Projects-->
+        <section class="offset-section" id="achievement">
+            <div class="container px-4 px-lg-5">
+                <h1 class="mb-4 text-center">Curricular Activities & Achievement</h1>
+                <div class="row row-cols-1 row-cols-md-3 g-2 pb-4">
+                    <div class="col">
+                        <div class="card mb-3 h-100">
+                            <h5 class="card-header text-center">2022</h5>
+                            <div class="card-body">
+                                <ul>
+                                    <li>Participant - Bayu Hackathon</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3 h-100">
+                            <h5 class="card-header text-center">2017</h5>
+                            <div class="card-body">
+                                <ul>
+                                    <li>Asian-Pacific Lasallian Youth Congress <br> Philippines</li>
+                                    <li> 1<sup>st</sup> Place - Sabah Wetland Video Competition <i class="fas fa-trophy text-warning"></i> </li>
+                                    <li>Student Council in SM La Salle <br> Timbalan Ketua Pembangkang</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card mb-3 h-100 ">
+                            <h5 class="card-header text-center">2016</h5>
+                            <div class="card-body">
+                                <ul>
+                                    <li>National Lasallian Leadership Convention <br> Ipoh, Perak</li>
+                                    <li>Borneo Lasallian Convention <br> Kuching, Sarawak</li>
+                                    <li>Top 22 - MySekolah Video Competition<i class="fas fa-trophy text-warning"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- Contact-->
+        <section class="py-4" id="contact">
+            <div class="container px-4 px-lg-5">
+                <h2 class=" mb-5 text-center">Contact</h2>
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fa-brands fa-linkedin text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">LinkedIn</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50"><a href="https://www.linkedin.com/in/leonard-louis" target="_blank">Leonard Louis</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Email</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50">Leo[@]leonardlouis.ml</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fa-brands fa-github text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Github</h4>
+                                <hr class="my-4 mx-auto" />
+                                <div class="small text-black-50"><a href="https://github.com/leonardl00" target="_blank">Leonard Louis</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer small text-center"><div class="container px-4 px-lg-5">Copyright &copy; Leonard Louis 2022</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
